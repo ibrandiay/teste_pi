@@ -7,6 +7,6 @@ while True :
     _ , frame = cap.read()
     if _ : 
         print('bon' ) 
-        cv2.imwrite("img.jpg" , cv2.cvtColor(frame , cv2.COLOR_BGR2RGB)) 
+        cv2.imwrite("img.jpg" , frame) 
     else : print("pas bien " ) 
 
