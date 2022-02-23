@@ -3,7 +3,9 @@ import cv2
 
 # read cam 
 cap = cv2.VideoCapture(0)
-writer= cv2.VideoWriter('video.mp4', cv2.VideoWriter_fourcc(*'DIVX'), 20, (1200,800))
+w=int(cap.get(cv2.CAP_PROP_FRAME_WIDTH ))
+h=int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT ))
+writer= cv2.VideoWriter('video.avi', cv2.VideoWriter_fourcc(*'XVID'), 20, (w,h))
 while True : 
     _ , frame = cap.read()
     if _ : 
