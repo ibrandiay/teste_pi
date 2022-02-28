@@ -5,7 +5,7 @@ import cv2
 cap = cv2.VideoCapture(0)
 w=int(cap.get(cv2.CAP_PROP_FRAME_WIDTH ))
 h=int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT ))
-writer= cv2.VideoWriter('video2.avi', cv2.VideoWriter_fourcc(*'XVID'), 20, (w,h))
+writer= cv2.VideoWriter('video3.avi', cv2.VideoWriter_fourcc(*'XVID'), 20, (w,h))
 while True : 
     _ , frame = cap.read()
     if _ : 
