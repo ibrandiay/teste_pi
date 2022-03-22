@@ -11,7 +11,7 @@ while True :
     _ , frame = cap.read()
     if _ : 
         print('bon' )
-        writer.write(frame + 10)
+        writer.write(frame)
         #cv2.imwrite("img_bon33.jpg" , frame) 
     else : print("pas bien " ) 
 
