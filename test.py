@@ -12,6 +12,6 @@ while True :
     if _ : 
         print('bon' )
         #writer.write(frame)
-        cv2.imwrite("img_bon223.jpg" , frame[:::,:::,:::-1) 
+        cv2.imwrite("img_bon223.jpg" , frame[::,::,::-1]) 
     else : print("pas bien ") 
 
