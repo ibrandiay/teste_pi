@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Firefox
+Comment=python1
+Exec=python3 setup.py
+Hidden=false
+NoDisplay=false
+Terminal=false
