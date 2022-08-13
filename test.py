@@ -8,6 +8,7 @@ print("la taille " , w, h )
 while True : 
     _ , frame = cap.read()
     if _ : 
+        print('new modif')
         print('bon' )
         #writer.write(frame)
         cv2.imwrite("img1.jpg" , frame[::,::,::-1]) 
