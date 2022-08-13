@@ -15,4 +15,5 @@ while True :
         cv2.read
         ____________
     else : print("pas bien ") 
-
+    ----
+    print("modif")
