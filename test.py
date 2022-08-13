@@ -11,5 +11,7 @@ while True :
         print('bon' )
         #writer.write(frame)
         cv2.imwrite("img1.jpg" , frame[::,::,::-1]) 
+        cv2.read
+        ____________
     else : print("pas bien ") 
 
